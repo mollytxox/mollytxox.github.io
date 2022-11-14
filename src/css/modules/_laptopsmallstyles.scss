@@ -1,0 +1,210 @@
+// LAPTOP SMALL MEDIA QUERY
+@media screen and (min-width: 1024px) {
+
+    // CONTAINER FOR PURPLE AND YELLOW HERO CONTAINERS
+    .hero-container {
+        width: 100%;
+        height: auto;
+        display: flex;
+    }
+
+    // PURPLE HERO CONTAINER
+
+    .hero-purple-container {
+        background-color: #AC9ED9;
+        width: 60%;
+        height: auto;
+        padding-bottom: 10px;
+    }
+
+    .job-title-container {
+        padding: 30px;
+        font-size: 50px;
+    }
+
+    .job-description-container {
+        font-size: 22px;
+        padding-left: 35px;
+    }
+
+    .yellow-line-divider {
+        margin-top: 40px;
+        margin-bottom: 15px;
+        width: 50%;
+    }
+
+    .name-container {
+        font-size: 28px;
+    }
+
+    .arrow-image {
+        padding-bottom: 45px;
+    }
+
+    // YELLOW HERO CONTAINER
+
+    .hero-yellow-container {
+        background-color: #FFF8B9;
+        padding-top: 140px;
+        padding-bottom: 80px;
+        width: 40%;
+    }
+
+    .image-container {
+        width: 43%;
+        height: auto;
+        position: absolute;
+        right: 130px;
+        top: 185px;
+        z-index: 99;
+    }
+
+    .image-of-me {
+        width: 80%;
+        height: auto;
+    }
+
+    .white-square-container {
+        width: 35%;
+        right: 175px;
+        top: 215px;
+    }
+
+    .brackets-image-container {
+        width: 6%;
+        height: auto;
+        top: 0px;
+        right: 25px;
+    }
+
+    // ABOUT ME 
+    .about-me-title {
+        font-size: 30px;
+        padding: 40px;
+        padding-bottom: 0px;
+    }
+
+    .about-me-text {
+        font-size: 20px;
+        padding: 40px;
+    }
+
+    // WORK SECTION
+    .work-title {
+        font-size: 30px;
+        padding: 40px;
+        padding-bottom: 30px;
+    }
+
+    .mockup-container {
+        display: flex;
+        flex-wrap: wrap;
+        padding-bottom: 40px;
+    }
+
+    .mockup-box {
+        width: 45%;
+        margin-bottom: -30px;
+        height: 390px;
+    }
+
+    // MOCKUP HOVERS
+    .mockup-image {
+        opacity: 1;
+        display: block;
+        width: 100%;
+        height: auto;
+        transition: .5s ease;
+        backface-visibility: hidden;
+    }
+
+    .middle {
+        transition: .5s ease;
+        opacity: 0;
+        margin-top: -195px;
+        margin-left: 100px;
+        transform: translate(-50%, -50%);
+        -ms-transform: translate(-50%, -50%);
+        text-align: center;
+        border: 1px solid $grey;
+    }
+
+    .mockup-box:hover .mockup-image {
+        opacity: 0.3;
+    }
+
+    .mockup-box:hover .middle {
+        opacity: 1;
+    }
+
+    .text {
+        visibility: visible;
+        background-color: $purple;
+        color: $grey;
+        font-size: 22px;
+        padding: 16px 32px;
+        font-family: 'Noto Sans', sans-serif;
+        width: 200px;
+    }
+
+    // MOCKUP HOVERS
+
+
+    // CONTACT BOX
+    .contact-title {
+        font-size: 30px;
+        padding: 40px;
+        padding-bottom: 0px;
+    }
+
+    .contact-text {
+        font-size: 20px;
+        padding: 40px;
+    }
+
+    // SKILLS BOX
+
+    .skills-title {
+        font-size: 30px;
+        padding: 40px;
+        padding-bottom: 20px;
+    }
+
+    .skills-logo-box {
+        width: 12%;
+    }
+
+    // DOTS IN YELLOW HERO SECTION
+
+    .dots-container {
+        width: 50px;
+        height: 90px;
+        position: absolute;
+        z-index: 99;
+        top: 580px;
+        right: 15px;
+    }
+
+    .dot-grey {
+        background-color: $grey;
+        width: 25px;
+        height: 25px;
+        border-radius: 100px;
+        margin: 0 auto;
+        margin-bottom: 6px;
+    }
+
+    .dot-white {
+        background-color: white;
+        width: 15px;
+        height: 15px;
+        border-radius: 100px;
+        margin: 0 auto;
+        margin-bottom: 6px;
+    }
+
+    // FOOTER
+    .footer-container {
+        padding-bottom: 20px;
+    }
+}
