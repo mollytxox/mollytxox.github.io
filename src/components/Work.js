@@ -25,7 +25,7 @@ const Work = () => {
                         </a>
                     </div>
                 </div>
-                <div className="mockup-box">
+                {/* <div className="mockup-box">
                     <a href="https://nz-toursim-vercel.vercel.app/" target="_blank">
                         <img className="mockup-image" src="/images/mockup2.jpeg" />
                     </a>
@@ -34,7 +34,7 @@ const Work = () => {
                             <div className="text">NZ TOURISM</div>
                         </a>
                     </div>
-                </div>
+                </div> */}
                 <div className="mockup-box">
                     <a href="https://papori-frontend.vercel.app/" target="_blank">
                         <img className="mockup-image" src="/images/mockup4.jpeg" />
@@ -42,6 +42,16 @@ const Work = () => {
                     <div className="middle">
                         <a href="https://papori-frontend.vercel.app/" target="_blank">
                             <div className="text">PAPORI</div>
+                        </a>
+                    </div>
+                </div>
+                <div className="mockup-box">
+                    <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
+                        <img className="mockup-image" src="/images/thompsonelectrical.jpeg" />
+                    </a>
+                    <div className="middle">
+                        <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
+                            <div className="text">THOMPSON ELECTRICAL</div>
                         </a>
                     </div>
                 </div>
