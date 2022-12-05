@@ -5,56 +5,114 @@ const Work = () => {
         <div className="work-container">
             <h2 className="work-title">MY WORK</h2>
             <div className="mockup-container">
+                {/* DUNKIN DONUTS  */}
                 <div className="mockup-box">
+                    <div className="website-name">Dunkin Donuts</div>
                     <a href="https://dunkin-donuts.vercel.app/" target="_blank">
-                        <img className="mockup-image" src="/images/mockup1.jpeg" />
+                        <img className="mockup-image" src="/images/website1.png" />
                     </a>
                     <div className="middle">
                         <a href="https://dunkin-donuts.vercel.app/" target="_blank">
-                            <div className="text">DUNKIN DONUTS</div>
+                            <div className="text">View Website</div>
                         </a>
                     </div>
+                    <div className="website-description">
+                        I coded this 'Dunkin Donuts' website redesign at the beginning of my diploma. <br></br>
+                        It was a great way for me to learn CSS and how to implement responsive design to a website.<br></br>
+                        The website features filtering functionality and allowed me to gain experience using JavaScript objects.
+                    </div>
                 </div>
+                {/* DUNKIN DONUTS  */}
+                {/* WOMENS CENTRE  */}
                 <div className="mockup-box">
+                    <div className="website-name">The Women's Centre</div>
                     <a href="https://molly.yoobeestudent.net/" target="_blank">
-                        <img className="mockup-image" src="/images/mockup3.jpeg" />
+                        <img className="mockup-image" src="/images/website2.png" />
                     </a>
                     <div className="middle">
                         <a href="https://molly.yoobeestudent.net/" target="_blank">
-                            <div className="text">WOMEN'S CENTRE</div>
+                            <div className="text">View Website</div>
                         </a>
+                    </div>
+                    <div className="website-description">
+                        The scenario for this project was to redesign a website for a non-profit organisation.<br></br>
+                        This was my first time coding a website using a React front-end.<br></br>
+                        The backend for this website providing custom posts was WordPress. It was interesting to learn how to use WordPress with React.
                     </div>
                 </div>
-                {/* <div className="mockup-box">
-                    <a href="https://nz-toursim-vercel.vercel.app/" target="_blank">
-                        <img className="mockup-image" src="/images/mockup2.jpeg" />
-                    </a>
-                    <div className="middle">
-                        <a href="https://nz-toursim-vercel.vercel.app/" target="_blank">
-                            <div className="text">NZ TOURISM</div>
-                        </a>
-                    </div>
-                </div> */}
+                {/* WOMENS CENTRE  */}
+                {/* PAPORI  */}
                 <div className="mockup-box">
+                    <div className="website-name">Papori Neighbourhood</div>
                     <a href="https://papori-frontend.vercel.app/" target="_blank">
-                        <img className="mockup-image" src="/images/mockup4.jpeg" />
+                        <img className="mockup-image" src="/images/website3.png" />
                     </a>
                     <div className="middle">
                         <a href="https://papori-frontend.vercel.app/" target="_blank">
-                            <div className="text">PAPORI</div>
+                            <div className="text">View Website</div>
                         </a>
                     </div>
+                    <div className="website-description">
+                        This project was a group assignment, doing a group project improved my teamwork skills greatly.<br></br>
+                        I enjoyed implementing so much functionality on this website, including: editing, deleting, posting, commenting, logging in and editing accounts.<br></br>
+                        We learnt how to use MongoDB during this project, which I thoroughly enjoyed.
+                    </div>
                 </div>
+                {/* PAPORI  */}
+                {/* THOMPSON ELECTRICAL  */}
                 <div className="mockup-box">
+                    <div className="website-name">Thompson Electrical Ltd</div>
                     <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
-                        <img className="mockup-image" src="/images/thompsonelectrical.jpeg" />
+                        <img className="mockup-image" src="/images/website4.png" />
                     </a>
                     <div className="middle">
                         <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
-                            <div className="text">THOMPSON ELECTRICAL</div>
+                            <div className="text">View Website</div>
                         </a>
                     </div>
+                    <div className="website-description">
+                        The scenario for this project was to redesign a website for a company that provides a service.<br></br>
+                        I used a WordPress backend with a React frontend for this website, the same way I did for my Women's Centre Website.<br></br>
+                        This project helped me understand how to use API's even more. I was challenged when making the website on a live server but was a great accomplishment for me.
+                    </div>
                 </div>
+                {/* THOMPSON ELECTRICAL  */}
+                {/* NZ TOURSIM  */}
+                <div className="mockup-box">
+                    <div className="website-name">New Zealand Toursim</div>
+                    <a href="https://nz-toursim-vercel.vercel.app/" target="_blank">
+                        <img className="mockup-image" src="/images/website5.png" />
+                    </a>
+                    <div className="middle">
+                        <a href="https://nz-toursim-vercel.vercel.app/" target="_blank">
+                            <div className="text">View Website</div>
+                        </a>
+                    </div>
+                    <div className="website-description">
+                        New Zealand Tourism was assigned to be our hypothetical client for this project. We were tasked with updating their brand to look more modern but stay true to their branding.<br></br>
+                        During this project I learnt how to implement a date picker, swiper, mapbox, validation and more complicated JavaScript variables.<br></br>
+                        I tried to design this website to be as true to the NZ Tourism branding as possible while adding a modern twist. I think the outcome suits the brief and would be functional in a real life scenario.
+                    </div>
+                </div>
+                {/* NZ TOURSIM  */}
+                {/* NEWS ARTICLE  */}
+                <div className="mockup-box">
+                    <div className="website-name">News Article</div>
+                    <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
+                        <img className="mockup-image" src="/images/website6.png" />
+                    </a>
+                    <div className="middle">
+                        <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
+                            <div className="text">View Website</div>
+                        </a>
+                    </div>
+                    <div className="website-description">
+                        I chose for this project to create a simple website around the News Article API.<br></br>
+                        We had freedom to choose our own API to design a website around. I went with the News Article API to try and design a website unlike something I had done before.<br></br>
+                        It was good practise to implement a search and filter function again on this website. I also found this website to test my API knowledge and it was very rewarding to see my efforts come together.
+                    </div>
+                </div>
+                {/* NEWS ARTICLE  */}
             </div>
         </div >
     )

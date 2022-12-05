@@ -79,7 +79,7 @@
 
     // ABOUT ME 
     .about-me-title {
-        font-size: 30px;
+        font-size: 35px;
         padding: 40px;
         padding-bottom: 0px;
     }
@@ -91,7 +91,7 @@
 
     // WORK SECTION
     .work-title {
-        font-size: 30px;
+        font-size: 35px;
         padding: 40px;
         padding-bottom: 30px;
     }
@@ -104,8 +104,22 @@
 
     .mockup-box {
         width: 45%;
-        margin-bottom: -30px;
-        height: 390px;
+        margin-bottom: 30px;
+        height: 600px;
+    }
+
+    .website-name {
+        font-size: 27px;
+    }
+
+    .website-description {
+        font-weight: lighter;
+        font-size: 17px;
+        text-align: left;
+        padding-top: 205px;
+        padding-left: 20px;
+        padding-right: 20px;
+        color: #4D4D4D;
     }
 
     // MOCKUP HOVERS
@@ -139,11 +153,11 @@
 
     .text {
         visibility: visible;
-        background-color: $purple;
-        color: $grey;
+        background-color: $yellow;
+        color: grey;
         font-size: 22px;
         padding: 16px 32px;
-        font-family: 'Noto Sans', sans-serif;
+        font-family: 'Klee One', cursive;
         width: 200px;
     }
 
@@ -152,7 +166,7 @@
 
     // CONTACT BOX
     .contact-title {
-        font-size: 30px;
+        font-size: 35px;
         padding: 40px;
         padding-bottom: 0px;
     }
@@ -165,7 +179,7 @@
     // SKILLS BOX
 
     .skills-title {
-        font-size: 30px;
+        font-size: 35px;
         padding: 40px;
         padding-bottom: 20px;
     }
