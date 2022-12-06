@@ -97,19 +97,19 @@ const Work = () => {
                 {/* NZ TOURSIM  */}
                 {/* NEWS ARTICLE  */}
                 <div className="mockup-box">
-                    <div className="website-name">News Article</div>
-                    <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
+                    <div className="website-name">Instyle Mobile Hairdressing</div>
+                    <a href="https://instylemobilehairdressing.vercel.app/" target="_blank">
                         <img className="mockup-image" src="/images/website6.png" />
                     </a>
                     <div className="middle">
-                        <a href="https://molly.yoobeestudent.net/thompsonelectrical" target="_blank">
+                        <a href="https://instylemobilehairdressing.vercel.app/" target="_blank">
                             <div className="text">View Website</div>
                         </a>
                     </div>
                     <div className="website-description">
-                        I chose for this project to create a simple website around the News Article API.<br></br>
-                        We had freedom to choose our own API to design a website around. I went with the News Article API to try and design a website unlike something I had done before.<br></br>
-                        It was good practise to implement a search and filter function again on this website. I also found this website to test my API knowledge and it was very rewarding to see my efforts come together.
+                        This is a website that I decided to design for a family member at the start of the year to improve my CSS skills.<br></br>
+                        I upskilled my basic JavaScript knowledge on this website and improved my media query skills.<br></br>
+                        My family member was very happy with the overall outcome as was I.
                     </div>
                 </div>
                 {/* NEWS ARTICLE  */}
