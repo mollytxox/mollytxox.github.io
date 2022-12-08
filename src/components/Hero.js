@@ -15,7 +15,7 @@ const Hero = () => {
                         <img className="arrow-image" src="/images/arrow.png" />
                     </div>
                     <div className="image-container">
-                        <img className="image-of-me" src="/images/newme.jpg" />
+                        <img className="image-of-me" src="/images/newme.png" />
                     </div>
                     <div className="white-square-container">
                         <img className="square-outline-image" src="/images/whitesquare.png" />
