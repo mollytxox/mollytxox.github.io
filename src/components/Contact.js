@@ -7,7 +7,8 @@ const Contact = () => {
             <p className="contact-text"><Envelope className="contact-icon" />mollythompsonxox@gmail.com <br></br> <br></br>
                 <Phone className="contact-icon" />0275038151 <br></br> <br></br>
                 <Github className="contact-icon" />mollytxox <br></br> <br></br>
-                <Linkedin className="contact-icon" />LinkedIn</p>
+                {/* <Linkedin className="contact-icon" />LinkedIn</p> */}
+            </p>
         </div>
     )
 }
