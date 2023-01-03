@@ -161,7 +161,7 @@ a {
     font-size: 23px;
     color: $purple;
     padding: $medium-spacing;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
     font-weight: 600;
 }
 
@@ -170,6 +170,7 @@ a {
     height: auto;
     padding-bottom: 20px;
 }
+
 
 .middle {
     width: 0px;
@@ -196,28 +197,31 @@ a {
 }
 
 .mockup-box {
-    width: 80%;
+    width: 90%;
     height: auto;
-    margin: 0 auto;
-    background-color: #CDCDCD;
+    margin-left: 0px;
+    background-color: #383838;
     color: white;
     text-align: center;
-    margin-bottom: $medium-spacing;
+    margin-bottom: 40px;
     padding-bottom: 20px;
-    border: 1px solid $purple;
-    box-shadow: 10px 10px 0px -4px rgba(172, 158, 217, 0.7);
-    -webkit-box-shadow: 10px 10px 0px -4px rgba(172, 158, 217, 0.7);
-    -moz-box-shadow: 10px 10px 0px -4px rgba(172, 158, 217, 0.7);
+    outline: 2px solid $purple;
+    outline-offset: 9px;
+}
+
+.mockup-box:nth-child(2),
+.mockup-box:nth-child(4),
+.mockup-box:nth-child(6) {
+    margin-left: 10%;
 }
 
 .website-name {
     font-size: 22px;
-    color: black;
-    text-align: center;
+    color: white;
+    text-align: left;
     font-weight: bolder;
     padding: 20px;
-    font-family: 'Klee One', cursive;
-    -webkit-text-stroke: 1px;
+    padding-bottom: 0px;
 }
 
 .website-description {
@@ -227,7 +231,7 @@ a {
     padding-top: $medium-spacing;
     padding-left: $medium-spacing;
     padding-right: $medium-spacing;
-    color: $grey;
+    color: white;
 }
 
 
@@ -340,226 +344,4 @@ a {
 
 @import "./modules/tabletstyles";
 @import "./modules/laptopsmallstyles";
-
-
-// LAPTOP LARGE MEDIA QUERY
-@media screen and (min-width: 1440px) {
-
-    // CONTAINER FOR PURPLE AND YELLOW HERO CONTAINERS
-    .hero-container {
-        width: 100%;
-        height: auto;
-        display: flex;
-    }
-
-    // PURPLE HERO CONTAINER
-
-    .hero-purple-container {
-        background-color: #AC9ED9;
-        width: 60%;
-        height: auto;
-        padding-bottom: 10px;
-    }
-
-    .job-title-container {
-        padding: 50px;
-        font-size: 70px;
-    }
-
-    .job-description-container {
-        font-size: 35px;
-        padding-left: 55px;
-    }
-
-    .yellow-line-divider {
-        margin-bottom: -15px;
-    }
-
-    .name-container {
-        font-size: 35px;
-        padding: 30px;
-    }
-
-    .arrow-image {
-        padding-bottom: 0px;
-    }
-
-    // YELLOW HERO CONTAINER
-
-    .hero-yellow-container {
-        background-color: #FFF8B9;
-        padding-top: 140px;
-        padding-bottom: 80px;
-        width: 40%;
-    }
-
-    .image-container {
-        top: 195px;
-    }
-
-    .image-of-me {
-        width: 80%;
-        height: auto;
-    }
-
-    .white-square-container {
-        right: 190px;
-        top: 230px;
-    }
-
-    .brackets-image-container {
-        top: 5px;
-        right: 30px;
-    }
-
-    // ABOUT ME 
-    .about-me-title {
-        font-size: 45px;
-        padding: 40px;
-        padding-bottom: 0px;
-        padding-left: 90px;
-    }
-
-    .about-me-text {
-        font-size: 27px;
-        padding: 90px;
-        padding-top: 20px;
-        padding-bottom: 50px;
-    }
-
-    // WORK SECTION
-    .work-title {
-        font-size: 45px;
-        padding: 40px;
-        padding-bottom: 50px;
-        padding-left: 90px;
-    }
-
-    .mockup-container {
-        display: flex;
-        flex-wrap: wrap;
-        width: 90%;
-        margin: 0 auto;
-    }
-
-    .mockup-box {
-        width: 45%;
-        margin-bottom: 30px;
-        height: 700px;
-    }
-
-    .website-name {
-        font-size: 27px;
-    }
-
-    .website-description {
-        font-size: 20px;
-        padding-top: 240px;
-    }
-
-
-    // MOCKUP HOVERS
-    .mockup-image {
-        opacity: 1;
-        display: block;
-        width: 100%;
-        height: auto;
-        transition: .5s ease;
-        backface-visibility: hidden;
-    }
-
-    .middle {
-        transition: .5s ease;
-        opacity: 0;
-        margin-top: -220px;
-        margin-left: 130px;
-        transform: translate(-50%, -50%);
-        -ms-transform: translate(-50%, -50%);
-        text-align: center;
-        border: 1px solid $grey;
-    }
-
-    .mockup-box:hover .mockup-image {
-        opacity: 0.3;
-    }
-
-    .mockup-box:hover .middle {
-        opacity: 1;
-    }
-
-    .text {
-        visibility: visible;
-        background-color: $yellow;
-        color: grey;
-        font-size: 30px;
-        padding: 16px 32px;
-        font-family: 'Klee One', cursive;
-        width: 260px;
-    }
-
-
-    // MOCKUP HOVERS
-
-    // CONTACT BOX
-    .contact-title {
-        font-size: 45px;
-        padding: 40px;
-        padding-bottom: 0px;
-        padding-left: 90px;
-    }
-
-    .contact-text {
-        font-size: 27px;
-        padding: 45px;
-        padding-top: 30px;
-        padding-left: 90px;
-    }
-
-    // SKILLS BOX
-
-    .skills-title {
-        font-size: 45px;
-        padding: 40px;
-        padding-bottom: 20px;
-        padding-left: 90px;
-    }
-
-    .skills-logo-box {
-        width: 12%;
-    }
-
-    // DOTS IN YELLOW HERO SECTION
-
-    .dots-container {
-        width: 60px;
-        height: 110px;
-        position: absolute;
-        z-index: 99;
-        top: 650px;
-        right: 15px;
-    }
-
-    .dot-grey {
-        background-color: $grey;
-        width: 35px;
-        height: 35px;
-        border-radius: 100px;
-        margin: 0 auto;
-        margin-bottom: 8px;
-    }
-
-    .dot-white {
-        background-color: white;
-        width: 25px;
-        height: 25px;
-        border-radius: 100px;
-        margin: 0 auto;
-        margin-bottom: 8px;
-    }
-
-    // FOOTER
-    .footer-container {
-        padding-bottom: 45px;
-    }
-
-}
+@import "./modules/laptoplarge";
