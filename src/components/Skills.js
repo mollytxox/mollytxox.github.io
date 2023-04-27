@@ -1,7 +1,7 @@
 const Skills = () => {
     return (
         <div className="skills-container">
-            <h2 className="skills-title">SKILL SET</h2>
+            <h2 className="skills-title">skill set</h2>
             <div className="skills-logo-container">
                 <div className="skills-logo-box">
                     <img className="skill-logo-image" src="/images/skill1.png" />

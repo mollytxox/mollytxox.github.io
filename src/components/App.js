@@ -14,8 +14,8 @@ const App = () => {
     return (
         <>
             <Hero />
-            <About />
             <Work />
+            <About />
             <Contact />
             <Skills />
             <Footer />

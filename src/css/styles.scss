@@ -4,6 +4,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Klee+One:wght@600&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
 * {
     font-family: 'Noto Sans', sans-serif;
     margin: 0;
@@ -40,6 +42,7 @@ a {
     color: $grey;
     padding: $medium-spacing;
     font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .job-title-container {
@@ -131,7 +134,7 @@ a {
 .about-container {
     width: 100%;
     height: auto;
-    background-color: $purple;
+    background-color: rgba(172, 158, 217, 0.65);
 }
 
 .about-me-title {
@@ -140,6 +143,7 @@ a {
     padding: $medium-spacing;
     padding-bottom: 0px;
     font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .about-me-text {
@@ -163,6 +167,7 @@ a {
     padding: $medium-spacing;
     padding-bottom: 30px;
     font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .mockup-container {
@@ -241,28 +246,47 @@ a {
 .contact-container {
     width: 100%;
     height: auto;
-    background-color: $yellow;
+    background-color: $grey;
 }
 
 .contact-title {
     font-size: 23px;
-    color: $grey;
+    color: $purple;
     padding: $medium-spacing;
     padding-bottom: 0px;
     font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .contact-text {
     font-size: 16px;
-    color: $grey;
     font-weight: lighter;
     padding: $medium-spacing;
 }
 
-.contact-icon {
-    font-size: 20px;
-    margin-right: 10px;
-    margin-bottom: -5px;
+.contact-button {
+    width: 97%;
+    height: 37px;
+    background-color: $purple;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-top: 15px;
+    -webkit-box-shadow: -1px 0px 8px 0px #6b4e6b;
+    -moz-box-shadow: -1px 0px 8px 0px #6b4e6b;
+    box-shadow: -1px 0px 8px 0px #6b4e6b;
+}
+
+.contact-button a {
+    color: white;
+    padding-right: 8px;
+    font-size: 18px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.arrow-right {
+    color: white;
+    vertical-align: middle;
 }
 
 // SKILLS COMPONENT 
@@ -279,6 +303,7 @@ a {
     padding: $medium-spacing;
     padding-bottom: 20px;
     font-weight: 600;
+    font-family: 'Source Code Pro', monospace;
 }
 
 .skills-logo-container {

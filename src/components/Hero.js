@@ -6,9 +6,9 @@ const Hero = () => {
         <>
             <div className="hero-container">
                 <div className="hero-purple-container">
-                    <div className="name-container">Molly Thompson</div>
+                    <div className="name-container">molly thompson</div>
                     <ZigZag />
-                    <div className="job-title-container">FRONTEND <br></br>DEVELOPER</div>
+                    <div className="job-title-container">JUNIOR WEB <br></br>DEVELOPER</div>
                     <div className="job-description-container"> I build modern, unique and <br></br>functional websites.</div>
                     <div className="yellow-line-divider"></div>
                     <div className="arrow-container">

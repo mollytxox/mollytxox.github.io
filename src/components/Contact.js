@@ -1,14 +1,13 @@
-import { Envelope, Phone, Github, Linkedin } from "react-bootstrap-icons"
+import { ArrowRight } from "react-bootstrap-icons"
 
 const Contact = () => {
     return (
         <div className="contact-container">
-            <h2 className="contact-title">CONTACT ME</h2>
-            <p className="contact-text"><Envelope className="contact-icon" />mollythompsonxox@gmail.com <br></br> <br></br>
-                <Phone className="contact-icon" />0275038151 <br></br> <br></br>
-                <Github className="contact-icon" />mollytxox <br></br> <br></br>
-                {/* <Linkedin className="contact-icon" />LinkedIn</p> */}
-            </p>
+            <h2 className="contact-title">contact me</h2>
+            <div className="contact-text">
+                <div className="contact-button"><a href="tel:0275038151">0275038151</a><ArrowRight className="arrow-right" /></div>
+                <div className="contact-button"><a href="mailto:mollythompsonxox@gmail.com">mollythompsonxox@gmail.com</a><ArrowRight className="arrow-right" /></div>
+            </div>
         </div>
     )
 }
