@@ -191,22 +191,28 @@
     }
 
     .contact-text {
-        font-size: 27px;
-        padding: 45px;
-        padding-top: 30px;
-        padding-left: 90px;
+        font-size: 20px;
+        padding: 40px;
+        display: flex;
+        justify-content: center;
     }
 
     .contact-button {
-        width: 41.5%;
+        width: 330px;
         margin-left: 30px;
         margin-right: 30px;
-        padding-left: 30px;
-        height: 55px;
+    }
+
+    .link-contact-button {
+        margin-right: 30px;
     }
 
     .contact-button a {
-        font-size: 25px;
+        font-size: 21px;
+    }
+
+    .contact-button:hover {
+        cursor: pointer;
     }
 
     // SKILLS BOX
@@ -252,8 +258,55 @@
     }
 
     // FOOTER
-    .footer-container {
-        padding-bottom: 45px;
+    .footer-heading {
+        text-align: left;
+        margin-left: 100px;
+        padding-top: 45px;
+        padding-bottom: 10px;
+        padding-left: 0;
+        font-size: 20px;
+        color: rgb(68, 68, 68);
     }
+
+    .footeremail {
+        text-align: left;
+        padding-left: 100px;
+        padding-right: 20px;
+        padding-top: 15px;
+        padding-bottom: 25px;
+        font-size: 25px;
+        color: black;
+    }
+
+
+    .footer-links-block {
+        width: 100%;
+        text-align: left;
+        justify-content: left;
+        align-items: stretch;
+        padding-left: 100px;
+        display: flex;
+        padding-bottom: 25px;
+        color: rgb(68, 68, 68);
+    }
+
+    .footerfollowme {
+        margin-right: 5px;
+    }
+
+    .link {
+        color: rgb(68, 68, 68);
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    .footer-developed {
+        text-align: right;
+        margin-right: 100px;
+        padding-bottom: 25px;
+        color: rgb(147, 147, 147);
+        font-size: 16px;
+    }
+
 
 }

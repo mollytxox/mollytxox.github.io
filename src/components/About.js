@@ -21,8 +21,8 @@ const About = () => {
             </div>
             <div className="contact-container">
                 <div className="contact-text">
-                    <div className="contact-button"><a href="tel:0275038151">0275038151</a><ArrowRight className="arrow-right" /></div>
-                    <div className="contact-button"><a href="mailto:mollythompsonxox@gmail.com">mollythompsonxox@gmail.com</a><ArrowRight className="arrow-right" /></div>
+                    <a href="tel:0275038151" className="link-contact-button"><div className="contact-button">0275038151<ArrowRight className="arrow-right" /></div></a>
+                    <a href="mailto:mollythompsonxox@gmail.com" className="link-contact-button"><div className="contact-button">mollythompsonxox@gmail.com<ArrowRight className="arrow-right" /></div></a>
                 </div>
             </div>
         </>

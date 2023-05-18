@@ -265,6 +265,11 @@ a {
     padding-left: 10px;
     padding-top: 15px;
     border: 1px solid $purple;
+    color: black;
+}
+
+.contact-button:hover {
+    cursor: pointer;
 }
 
 .contact-button a {
@@ -323,9 +328,55 @@ a {
 .footer-container {
     width: 100%;
     height: auto;
-    padding-top: $medium-spacing;
-    padding-bottom: $small-spacing;
-    background-color: $yellow;
+}
+
+.footer-heading {
+    text-align: center;
+    margin-left: 0;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    padding-left: 0;
+    font-size: 15px;
+    color: rgb(68, 68, 68);
+}
+
+.footeremail {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 17px;
+    color: black;
+}
+
+
+.footer-links-block {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: stretch;
+    padding-left: 0;
+    display: flex;
+    padding-bottom: 25px;
+    color: rgb(68, 68, 68);
+}
+
+.footerfollowme {
+    margin-right: 5px;
+}
+
+.link {
+    color: rgb(68, 68, 68);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.footer-developed {
+    text-align: center;
+    padding-bottom: 15px;
+    color: rgb(147, 147, 147);
+    font-size: 10px;
 }
 
 // DOTS HIDDEN ON MOBILE
