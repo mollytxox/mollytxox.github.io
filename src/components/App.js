@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom/client';
 import Hero from './Hero';
 import About from './About';
 import Work from './Work';
-import Contact from './Contact';
 import Skills from './Skills';
 import Footer from './Footer';
 
@@ -16,7 +15,6 @@ const App = () => {
             <Hero />
             <Work />
             <About />
-            <Contact />
             <Skills />
             <Footer />
         </>

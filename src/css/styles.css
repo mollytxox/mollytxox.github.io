@@ -120,7 +120,7 @@ a {
 .about-container {
   width: 100%;
   height: auto;
-  background-color: rgba(172, 158, 217, 0.65);
+  background-color: #ffebff;
 }
 
 .about-me-title {
@@ -142,7 +142,7 @@ a {
 .work-container {
   width: 100%;
   height: auto;
-  background-color: #4D4D4D;
+  background-color: #FFFEF8;
 }
 
 .work-title {
@@ -225,22 +225,14 @@ a {
 .contact-container {
   width: 100%;
   height: auto;
-  background-color: #4D4D4D;
-}
-
-.contact-title {
-  font-size: 23px;
-  color: #AC9ED9;
-  padding: 20px;
-  padding-bottom: 0px;
-  font-weight: 600;
-  font-family: 'Source Code Pro', monospace;
+  background-color: #ffebff;
 }
 
 .contact-text {
   font-size: 16px;
   font-weight: lighter;
   padding: 20px;
+  padding-top: 0px;
 }
 
 .contact-button {
@@ -271,7 +263,7 @@ a {
 .skills-container {
   width: 100%;
   height: auto;
-  background-color: #AC9ED9;
+  background-color: #FFFEF8;
 }
 
 .skills-title {

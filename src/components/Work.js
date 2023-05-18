@@ -20,9 +20,7 @@ const Work = () => {
                     <div className="website-text-container">
                         <div className="website-name">Papori Neighbourhood</div>
                         <div className="website-description">
-                            This project was a group assignment, doing a group project improved my teamwork skills greatly.<br></br>
-                            I enjoyed implementing so much functionality on this website, including: editing, deleting, posting, commenting, logging in and editing accounts.<br></br>
-                            We learnt how to use MongoDB during this project, which I thoroughly enjoyed.
+                            This project was a group assignment, doing a group project improved my teamwork skills greatly. I enjoyed implementing functionality on this website, including: editing, deleting, posting, commenting, logging in and editing accounts. I learnt how to use MongoDB, Express and NodeJS during this project. It was a rewarding process to design a website as a group.
                         </div>
                     </div>
                 </div>
@@ -42,9 +40,7 @@ const Work = () => {
                     <div className="website-text-container">
                         <div className="website-name">Baz Thompson Music</div>
                         <div className="website-description">
-                            My dad, who is a musician asked me to code him a portfolio website to promote his music.<br></br>
-                            This was an exciting project as I had creative freedom to come up with a unique design.<br></br>
-                            I used HTML/CSS for this website, with some added JavaScript for hamburger menu functionality.
+                            My dad, who is a musician asked me to code him a portfolio website to promote his music. This was an exciting project as I had creative freedom to come up with a unique design. I used HTML/CSS for this website, with some added JavaScript for hamburger menu functionality. I designed a monochrome theme for this website as that is a design I haven't experimented with yet.
                         </div>
                     </div>
                 </div>
@@ -64,9 +60,7 @@ const Work = () => {
                     <div className="website-text-container">
                         <div className="website-name">Dunkin Donuts</div>
                         <div className="website-description">
-                            I coded this 'Dunkin Donuts' website redesign at the beginning of my diploma. <br></br>
-                            It was a great way for me to learn CSS and how to implement responsive design to a website.<br></br>
-                            The website features filtering functionality and allowed me to gain experience using JavaScript objects.
+                            I redesigned the 'Dunkin Donuts' website at the beginning of my Web diploma. This website was a great way for me to learn CSS and how to implement responsive design to a website. This helped me learn how to adapt existing branding into my design. The website features filtering functionality and allowed me to gain JavaScript experience.
                         </div>
                     </div>
                 </div>
@@ -86,8 +80,7 @@ const Work = () => {
                     <div className="website-text-container">
                         <div className="website-name">Instyle Mobile Hairdressing</div>
                         <div className="website-description">
-                            This is a website that I decided to design for a family member at the start of the year to improve my CSS skills.<br></br>
-                            I upskilled my basic JavaScript knowledge on this website and improved my media query skills. The outcome suits the requirements of the business and provides modern branding.<br></br>
+                            This is a website that I decided to design for a family member to improve my CSS skills for responsive design. I up-skilled on how to use media queries and designing mobile first. The outcome of this website suits the the business and provides modern branding. This was a rewarding challenge as I had to design the brand image at the same time as designing a new website for the company.
                         </div>
                     </div>
                 </div>
@@ -107,13 +100,31 @@ const Work = () => {
                     <div className="website-text-container">
                         <div className="website-name">New Zealand Toursim</div>
                         <div className="website-description">
-                            New Zealand Tourism was assigned to be our hypothetical client for this project.<br></br>
-                            During this project I learnt how to implement a date picker, swiper, mapbox, validation and learn more complex JavaScript.<br></br>
-                            I tried to design this website to be as true to the NZ Tourism branding as possible while adding a modern twist.
+                            New Zealand Tourism was assigned to be our hypothetical client for this project. During this project I learnt how to implement a date picker, Swiper, Mapbox, validation and learn more complex JavaScript. I designed this website to be as true to the NZ Tourism branding as possible, while still adding a modern twist.
                         </div>
                     </div>
                 </div>
                 {/* NZ TOURSIM  */}
+                {/* SPOTIFY  */}
+                <div className="mockup-box">
+                    <div className="website-image-container">
+                        <a href="https://spotify-recreation.vercel.app/" target="_blank">
+                            <img className="mockup-image" src="/images/spotify.png" />
+                        </a>
+                        <div className="middle">
+                            <a href="https://spotify-recreation.vercel.app/" target="_blank">
+                                <div className="text">View Website</div>
+                            </a>
+                        </div>
+                    </div>
+                    <div className="website-text-container">
+                        <div className="website-name">Spotify Recreation</div>
+                        <div className="website-description">
+                            To challenge my CSS skills I decided to replicate the Spotify website for desktop. By doing this, it helped me practise positioning and layouts. I really enjoyed this project. Through replicating an existing design it helped me to understand design decisions and hierarchy. I would like to code the mobile version in the future. I am pleased with the outcome of this redesign.
+                        </div>
+                    </div>
+                </div>
+                {/* SPOTIFY  */}
             </div>
         </div >
     )
